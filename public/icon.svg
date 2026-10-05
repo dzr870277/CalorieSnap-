@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="flame" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad1)" />
+  <g filter="url(#shadow)">
+    <!-- Plate / Ring -->
+    <circle cx="256" cy="256" r="148" fill="#ffffff" />
+    <circle cx="256" cy="256" r="124" fill="none" stroke="#e2e8f0" stroke-width="12" stroke-dasharray="12 8" />
+    <!-- Dynamic Progress arc -->
+    <path d="M 256 132 A 124 124 0 1 1 150 320" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round" />
+    <!-- Flame / Energy Icon in center -->
+    <path d="M256 180 C240 216 216 238 216 272 C216 298 234 316 256 316 C278 316 296 298 296 272 C296 238 272 216 256 180 Z" fill="url(#flame)" />
+    <!-- Inner Flame Leaf -->
+    <path d="M256 240 C248 260 238 270 238 285 C238 296 246 304 256 304 C266 304 274 296 274 285 C274 270 264 260 256 240 Z" fill="#fbbf24" />
+  </g>
+</svg>

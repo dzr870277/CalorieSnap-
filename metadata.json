@@ -1,0 +1,6 @@
+{
+  "name": "CalorieSnap (سُعرتي)",
+  "description": "Modern dual-language Arabic & English Calorie & Macro tracking Progressive Web App with Middle Eastern food database, TDEE calculator, and daily food diary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
